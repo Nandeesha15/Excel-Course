@@ -39,3 +39,33 @@ Microsoft Excel is a powerful spreadsheet application developed by Microsoft. It
 Learning Excel improves **productivity**, **analytical skills**, and **decision-making**.  
 It's a *must-have skill* in today's data-driven workplace.
 
+# 🆚 Workbook vs. Worksheet in Excel
+
+| **Feature**   | **Workbook**                                              | **Worksheet**                                       |
+|---------------|-----------------------------------------------------------|-----------------------------------------------------|
+| **Definition**| A file that contains one or more worksheets               | A single page (or sheet) within a workbook          |
+| **File Type** | It's the entire Excel file (e.g., `.xlsx`)                | It's part of the Excel file (a tab within the file) |
+| **Contains**  | Multiple worksheets, charts, and data                     | Cells organized in rows and columns                 |
+| **Example**   | A file named `Sales_Report.xlsx`                          | Inside it: `January`, `February`, `March` sheets    |
+
+### 🔑 Summary:
+- **Workbook** = The entire Excel file  
+- **Worksheet** = A single tab/page inside the workbook  
+
+---
+
+# 🆚 Formula vs. Function in Excel
+
+| **Feature**   | **Formula**                                                   | **Function**                                                  |
+|---------------|---------------------------------------------------------------|----------------------------------------------------------------|
+| **Definition**| A user-defined expression to perform calculations             | A predefined Excel command to perform specific tasks           |
+| **Created by**| Written manually by the user                                  | Built-in by Excel                                              |
+| **Example**   | `=A1 + B1` (adds values of cells A1 and B1)                   | `=SUM(A1:B1)` (adds a range of cells using a built-in command) |
+| **Flexibility**| More customizable; you can mix values, operators, and functions | Limited to the function's purpose                              |
+
+### 🔑 Summary:
+- **Formula** = Any expression you create, like `=A1*B1 + 10`  
+- **Function** = A predefined tool, like `=AVERAGE(A1:A5`)  
+
+✅ *Functions can be part of formulas, but not all formulas are functions.*
+
